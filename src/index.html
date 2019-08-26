@@ -7,8 +7,24 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>Mude sua senha!</h1>
     </div>
+    <form>
+      Texto: <input type="text" id="texto"/></br>
+      Chave do código: <input type="number" placeholder="Digite um número inteiro" id="code"/></br>
+      <input type="submit" id="buttonPegar" value="Codificar" onclick="pegaDados()"/>
+      <output name="result" id="novaFrase"></output>
+     
+    </form> 
+    
+    <form>      
+      <input type="submit" id="buttonEnviar" value="Decodificar" onclick="enviaDados()"/>
+      <output name="voltaResult" id="voltaFrase"></output>
+    </form>  
+        
+    
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
