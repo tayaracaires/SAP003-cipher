@@ -4,26 +4,27 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Zetta|Playfair+Display&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root">
       <h1>Mude sua senha!</h1>
     </div>
-    <form>
-      Senha: <br><input type="text" id="texto"/></br>
-      Chave para ser utilizada: <br><input type="number" placeholder="Digite um número inteiro" id="code"/></br>
-      <br>Escolha uma opção:</br>
-      <br><input type="submit" id="buttonPegar" value="Codificar" onclick="pegaDados()"/>
-      <output name="result" id="novaFrase"></output>
-    </form> 
+    <section class="main">
+      <form>
+        Senha atual: <br><input type="text" id="texto"/></br>
+        <br>Chave para ser utilizada: <br><input type="number" placeholder="Digite um número inteiro" id="code"/></br>
+        <br>Escolha uma opção:</br>
+        <p><button id="codifica">Codificar</button>
+        <button id="decodifica">Decodificar</button></p>     
+      </form> 
+    </section>
+    <br>
     
-    <form>      
-      <br><input type="submit" id="buttonEnviar" value="Decodificar" onclick="enviaDados()"/>
-      <output name="voltaResult" id="voltaFrase"></output>
-    </form>  
-        
-    
-
+    <div class="bottom">
+      <p><output name="result" id="novaFrase"></output></p>
+      <p><output name="voltaResult" id="voltaFrase"></output></p>
+    </div>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>

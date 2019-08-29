@@ -1,3 +1,6 @@
+document.getElementById("codifica").addEventListener("click", pegaDados);
+document.getElementById("decodifica").addEventListener("click", enviaDados);
+
 function pegaDados() {
   event.preventDefault();
   let string = document.getElementById("texto").value;
