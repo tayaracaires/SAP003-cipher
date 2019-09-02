@@ -50,4 +50,6 @@ Esta aplicação foi desenvolvida para o usuário codificar ou decodificar uma s
 
 Esta aplicação foi desenvolvida utilizando as seguintes ferramentas:
 
-* 
+* _Java Script_
+* _HTML_
+* _CSS_
