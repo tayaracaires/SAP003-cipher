@@ -88,5 +88,8 @@ describe("cipher", () => {
       assert.equal(cipher.decode(33, " !@"), " !@");
     });
   });
-
+  
 });
+
+
+

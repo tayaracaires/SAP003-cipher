@@ -7,6 +7,7 @@ function testaOffset (offset) {
   if (offset < 0) {
     while (offset < 0) {
       offset +=26;
+      return offset;
     }
   }
   return offset;
